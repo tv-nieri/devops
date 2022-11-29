@@ -1,9 +1,0 @@
-- name: Upgrade dos pacotes do sistema operacional
-  yum:
-    name: "*"
-    state: latest
-
-- name: Install do git client
-  yum:
-    name: "git"
-    state: latest
